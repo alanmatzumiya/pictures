@@ -1,0 +1,17 @@
+{
+    "available_space": true,
+    "content": [],
+    "folder-scheme": {
+        "name": [], "size": 0.0        
+    },
+    "file-scheme": {
+        "filename": "",
+        "path": "",
+        "size": 0.0,
+        "url": ""
+    },            
+    "size": 0.0,    
+    "lastupdate": "day-name month-name day-number hours:minutes:seconds year",
+    "ready_to_push": false,
+    "total_size": 0.0
+}
