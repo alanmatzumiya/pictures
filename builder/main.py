@@ -1,16 +1,10 @@
 from sys import argv
+from dotenv import load_dotenv
 from os import environ, system
 from pathlib import Path
 from time import ctime
 path = Path(__file__).parent
 args = argv[1:]
-
-
-try:
-    from dotenv import load_dotenv
-except ModuleNotFoundError as e:
-    system("pip install python-dotenv")	
-    from dotenv import load_dotenv
 
 
 def getdate():

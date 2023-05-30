@@ -4,7 +4,7 @@
 allow_push=$( python3 -m main get allow-push )
 git_user=alanmatzumiya
 username=alanmatzumiya
-repo="pictures"
+repo="<REPO>"
 
 
 echo *__pycache__ > .gitignore
