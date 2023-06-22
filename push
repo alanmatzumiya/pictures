@@ -8,7 +8,7 @@ repo="pictures"
 
 
 echo *__pycache__ > .gitignore
-find ./photos* -size +95M | cat >> .gitignore
+find ./* -size +95M | cat >> .gitignore
 if $allow_push; then
 
 	python3 -m main set allow-push false
