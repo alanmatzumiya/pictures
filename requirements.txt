@@ -1,1 +1,14 @@
 python-dotenv
+flask
+flask-cors
+flask_sqlalchemy
+flask_login
+gunicorn
+requests
+Werkzeug
+markdown
+PyYAML
+imageio
+imageio-ffmpeg
+matplotlib
+bs4
