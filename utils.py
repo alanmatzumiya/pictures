@@ -10,8 +10,9 @@ jsonconf = dict(
     sort_keys=True,
     ensure_ascii=False
 )
-containers_path = Path.home().joinpath("Pictures/containers")
-current_path = Path(__file__).parent
+home_path = Path.home()
+containers_path = home_path.joinpath("Pictures/containers")
+cpath = Path(__file__).parent
 
 
 def getjson(filepath):
